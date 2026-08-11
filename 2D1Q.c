@@ -16,7 +16,7 @@ Area=21, Perimeter=20
 #include <stdio.h>
 int a,b;
 int main() {
-    printf("Enter you Length and Breadth (Separated by spaces)");
+    printf("Enter the Length and Breadth (Separated by spaces)");
     scanf("%d%d", &a, &b);
     int c = a*b;
     printf("Area of the rectangle is %d\n", c);
