@@ -19,8 +19,8 @@ int main() {
     printf("Enter you Length and Breadth (Separated by spaces)");
     scanf("%d%d", &a, &b);
     int c = a*b;
-    printf("Area of your rectangle is %d\n", c);
+    printf("Area of the rectangle is %d\n", c);
     int d = 2*(a+b);
-    printf("Perimeter of you Rectangle is %d\n", d);
+    printf("Perimeter of the Rectangle is %d\n", d);
     return 0;
 }
